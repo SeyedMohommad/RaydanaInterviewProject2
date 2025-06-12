@@ -9,6 +9,7 @@ public class AccountingDoc {
         this.items = items;
     }
 
+
     public Result createDoc() {
         Set<String> itemSet = new HashSet<>();
         int totalDebtor = 0;
